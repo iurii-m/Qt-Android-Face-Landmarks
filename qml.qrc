@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>FocusButton.qml</file>
+        <file>main.cpp</file>
+        <file>lbpcascade_frontalface_improved.xml</file>
+        <file>face_landmarks_68.dat</file>
+    </qresource>
+</RCC>
