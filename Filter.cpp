@@ -40,8 +40,6 @@ void Filter::setFaceid(int faceid)
     emit faceidChanged(m_faceid);
 }
 
-
-
 void Filter::mouseplusClick()
 {
     qDebug() << this << "  Filter::mouseClick()";
@@ -59,17 +57,13 @@ void Filter::mouseminusClick()
 }
 
 
-
 void Filter::test()
 {
     qDebug() << this << " - Filter::text()";
     emit clicked();
 }
 
-
 extern QImage qt_imageFromVideoFrame(const QVideoFrame& f);
-
-
 
 FilterRunnable::FilterRunnable(Filter *parent):
     m_Filter(parent),
